@@ -471,6 +471,9 @@
   background: #392019;
   opacity: 1;
 }
+#es-rc #es-rc-content .es-cross .es-swiper-pagination {
+  bottom: -20px;
+}
 #es-rc #es-rc-content .es-cross__product {
   width: 225px;
   margin-bottom: 32px;
