@@ -56,8 +56,8 @@
   margin-bottom: 30px;
 }
 #es-rc #es-rc-content .es-kv {
-  background: #fff url("../images/kv-bg-m.jpg") no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   min-height: 300px;
 }
@@ -456,6 +456,20 @@
   justify-content: center;
   max-width: 450px;
   margin: 0 auto;
+  position: relative;
+}
+#es-rc #es-rc-content .es-cross .swiper-button-prev.es-swiper-button-prev,
+#es-rc #es-rc-content .es-cross .swiper-button-next.es-swiper-button-next {
+  top: unset;
+  bottom: 50%;
+}
+#es-rc #es-rc-content .es-cross .es-swiper-button-next,
+#es-rc #es-rc-content .es-cross .es-swiper-button-prev {
+  color: #392019;
+}
+#es-rc #es-rc-content .es-cross .es-swiper-pagination .swiper-pagination-bullet-active {
+  background: #392019;
+  opacity: 1;
 }
 #es-rc #es-rc-content .es-cross__product {
   width: 225px;
@@ -669,16 +683,6 @@
   }
   #es-rc #es-rc-content .es-kv__subtitle {
     color: #fff;
-  }
-  #es-rc #es-rc-content .es-formula {
-    min-height: 350px;
-    background: url(../images/formula.png) no-repeat 50% 66%;
-    background-size: cover;
-    min-height: 442px;
-  }
-  #es-rc #es-rc-content .es-formula__subtitle {
-    font-size: 25px;
-    left: 5%;
   }
 }
 @media screen and (min-width: 560px) {
@@ -1007,7 +1011,7 @@
 }
 @media screen and (min-width: 900px) {
   #es-rc #es-rc-content .es-kv {
-    min-height: 400px;
+    min-height: 410px;
   }
   #es-rc #es-rc-content .es-kv__img-description-1 {
     position: absolute;
