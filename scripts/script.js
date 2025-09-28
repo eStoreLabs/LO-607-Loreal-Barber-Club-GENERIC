@@ -2,6 +2,7 @@
   const swiper = new Swiper('#es-rc .es-swiper', {
     direction: 'horizontal',
     loop: true,
+    autoHeight: 'true',
 
     pagination: {
       el: '#es-rc .es-swiper-pagination',
