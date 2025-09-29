@@ -1214,7 +1214,6 @@ $black: #1d1d1b;
         max-width: 33%;
         min-width: 33%;
         padding: 0 10px;
-        min-height: 70px;
         position: relative;
 
         &::after {
@@ -1357,7 +1356,7 @@ $black: #1d1d1b;
       min-height: 410px;
       background-size: contain;
       background-repeat: no-repeat;
-      margin-bottom: 0;
+      margin-bottom: 50px;
       padding-bottom: 0;
 
       &--second {
@@ -1414,7 +1413,6 @@ $black: #1d1d1b;
         min-height: 220px;
       }
     }
-
   }
 
   @media screen and (min-width: 1300px) {
@@ -1437,7 +1435,6 @@ $black: #1d1d1b;
 
     .es-cross {
       &__packshot-description {
-        min-height: 60px;
 
         &::after {
           height: 135px;
@@ -1445,6 +1442,10 @@ $black: #1d1d1b;
         }
       }
     }
+  }
+
+  .es-info__item {
+    max-width: 325px;
   }
 
 }

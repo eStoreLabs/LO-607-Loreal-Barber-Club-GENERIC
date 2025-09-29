@@ -960,7 +960,6 @@
     max-width: 33%;
     min-width: 33%;
     padding: 0 10px;
-    min-height: 70px;
     position: relative;
   }
   #es-rc #es-rc-content .es-cross__packshot-description::after {
@@ -1067,7 +1066,7 @@
     min-height: 410px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding-bottom: 0;
   }
   #es-rc #es-rc-content .es-routine--second {
@@ -1121,13 +1120,13 @@
   #es-rc #es-rc-content .es-cross__products {
     max-width: none;
   }
-  #es-rc #es-rc-content .es-cross__packshot-description {
-    min-height: 60px;
-  }
   #es-rc #es-rc-content .es-cross__packshot-description::after {
     height: 135px;
     top: -35px;
   }
+}
+#es-rc #es-rc-content .es-info__item {
+  max-width: 325px;
 }
 
 @media screen and (min-width: 760px) {
